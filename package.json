@@ -1,0 +1,23 @@
+{
+  "name": "crud-node",
+  "version": "1.0.0",
+  "description": "Introduccion a Node.js",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juecastroco/repo-APIREST.git"
+  },
+  "author": "Programación Web Mision TIC 2022",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juecastroco/repo-APIREST/issues"
+  },
+  "homepage": "https://github.com/juecastroco/repo-APIREST#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "exprss": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,27 @@
+GET http://localhost:3000/tareas
+
+###
+
+GET http://localhost:3000/tareas/634dcbadc4f12bd3ac98b159
+
+###
+
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+    "idTarea": 4,
+    "nombreTarea": "Verificar Funcionamiento",
+    "detalleTarea": "Ejecutar las pruebs necesarias"
+}
+
+###
+DELETE http://localhost:3000/tareas/634dcbadc4f12bd3ac98b159
+
+###
+PATCH http://localhost:3000/tareas/6345f97fe4bdfa34bb9cfe1a
+Content-Type: application/json
+
+{
+    "idTarea": 1
+}
