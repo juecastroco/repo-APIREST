@@ -4,6 +4,7 @@
   "description": "Introduccion a Node.js",
   "main": "servidor.js",
   "scripts": {
+    "devStart": "nodemon servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/juecastroco/repo-APIREST#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "exprss": "^0.0.1-security"
+    "exprss": "^0.0.1-security",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
   }
 }
